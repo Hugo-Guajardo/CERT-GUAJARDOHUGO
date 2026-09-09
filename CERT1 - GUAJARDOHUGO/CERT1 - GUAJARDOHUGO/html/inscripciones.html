@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscribete</title>
+    <script src="../js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- Barra de navegacion -->
+        <nav class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="../img/icon_png.png" alt="Logo.png">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div id="navbarNav" class="collapse navbar-collapse">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a href="index.html"
+                                        class="nav-item active"><strong>Home</strong></a></li>
+                                <li class="nav-item"><a href="actividades.html"
+                                        class="nav-item active"><strong>Activities</strong></a></li>
+                                <li class="nav-item"><a href="inscripciones.html"
+                                        class="nav-item active"><strong>Inscriptions</strong></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+        <!-- Formulario -->
+        <main class="row">
+            <form id="formulario">
+
+                <div class="row">
+                    <div class="form-group col-12 col-md-6">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" class="form-control form-control-sm" id="nombre">
+                    </div>
+
+                    <div class="form-group col-12 col-md-6">
+                        <label for="age">Edad</label>
+                        <input type="text" class="form-control form-control-sm" id="age">
+                    </div>
+                </div>
+                
+
+                <div class="form-group col-12">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" class="form-control form-control-sm" id="email">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="fono">Telefono movil</label>
+                    <input type="text" class="form-control form-control-sm" id="fono">
+                </div>
+
+                <div class="form-group">
+                    <label for="seleccion">Actividad que desea inscribir</label>
+                    <select id="seleccion" class="form-control">
+                        <option>DIBUJO</option>
+                        <option>BAILE</option>
+                        <option>LECTURA</option>
+                        <option>MANUALIDADES</option>
+                        <option>ACTUACION</option>
+                        <option>CANTO</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">Comentarios Adicionales</label>
+                    <textarea id="comentarios" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-check_col-12">
+                    <input type="checkbox" class="form-check-input" id="checkBoxMark">
+                    <label for="checkBoxMark" class="form-check-label">Acepto con los terminos y condiciones de
+                        participacion</label>
+                </div>
+                <br>
+                <button type="submit" class="col-2 btn-primary" id="btn">Ingresar</button>
+
+            </form>
+
+        </main>
+
+        <!-- Info Contactos + Ubicacion -->
+
+        <footer id="info" class="row">
+            <div class="col-12 col-md-10">
+                <strong>
+                    Los Arceles #450, Lima
+                    Contactenos via Instagram, Facebook y Twitter
+                </strong>
+            </div>
+            <div id="social" class="col-12 col-md-2">
+                <img src="../img/social_media.png" alt="" class="fluid-img float-end h-50">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

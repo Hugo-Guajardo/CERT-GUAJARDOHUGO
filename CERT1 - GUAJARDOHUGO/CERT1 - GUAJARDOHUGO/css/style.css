@@ -1,0 +1,63 @@
+/* PALETA DE COLORES
+    283618- verde oscuro
+    606c38- vere claro
+    fefae0- beiche clare
+    dda15e- naranjo claro
+    bc6c25- Naranjo otoño
+*/
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: #283618;
+}
+p{
+    padding-bottom: 20px;
+}
+li{
+    margin-left: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    background-color: #606c38;
+}
+#sect{
+    background-color: #fefae0;
+}
+#call{
+    background-color: #a7b772;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #dda15e;
+}
+#welcome{
+    color:white;
+}
+#social{
+    padding-right:30px;
+    padding-top: 15px;
+}
+#actuar{
+    background-color: #bc6c25;
+    color:#fff;
+    font-size: medium;
+}
+main{
+    background-color: #fefae0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#btn{
+    background-color: #bc6c25;
+}
+
+#texto_act{
+    padding-top: 10%;
+
+}
